@@ -1,0 +1,132 @@
+*{
+	margin: 0px;
+	padding: 0px;
+	box-sizing: border-box;
+	transition: 0.7s;
+
+}
+
+
+#FactionSlides{
+	position: absolute;
+	top: 0% ;
+	width: 100%;
+	height: 30vh;
+	
+	background: url("back1.png");
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-color: black;
+}
+
+
+#content{
+	position: absolute;
+	top: 30% ;
+	width: 100%;
+	height: calc(23vh + 20vw);
+	font-family: 'Stick No Bills', sans-serif;
+	color: white;
+	font-size: calc(7vh + 3vw);
+	display: flex;
+	flex-wrap: wrap;
+	border: 2px solid white;
+}
+
+
+.videosrc{
+	width: 100%;
+	height: 100vh;
+	background: black;
+}
+
+.factions{
+ width: 50%;
+ height: 50%;
+
+ font-size: 20px;
+ display: flex;
+}
+
+.factionInfo{
+	width: 50%;
+	min-height: 100%;
+	font-size: 1px;
+	border-radius: 10%;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-direction: column;
+	text-align: center;
+}
+.factionAnimations{
+	width: 50%;
+	height: 100%;
+	
+	font-size: 50px;
+	position: relative;
+}
+.factionAnimations h2{
+	font-size: 4rem;
+	height: 100%;
+	width: 50%;
+}
+
+#JediTitle{
+	position: absolute;
+	right: 20%;
+	top: 15%;
+}
+.jediLine{
+	width: 5%;
+	height: 10px;
+	background: white;
+	position: absolute;
+	right: 25%;
+	top: 45%;
+}
+#jediIcon{
+	position: absolute;
+	right: 5%;
+	top: 35%;
+	cursor: pointer;
+}
+#jediIcon:hover{
+	transform: scale(1.5);
+}
+
+#RepublicIcon{
+	position: absolute;
+	left: 5%;
+	top: 35%;
+	cursor: pointer;
+}
+
+#RepublicIcon:hover{
+	transform: scale(1.5);
+}
+
+#rebulicLine{
+	width: 5%;
+	height: 10px;
+	background: white;
+	position: absolute;
+	left: 25%;
+	top: 45%;
+}
+
+#senateline{
+	width: 5%;
+	height: 10px;
+	background: white;
+	position: absolute;
+	left: 25%;
+	top: 45%;
+}
+
+#republicTitle{
+	position: absolute;
+	left: 20%;
+	top: 15%;
+}

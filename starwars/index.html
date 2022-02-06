@@ -1,0 +1,74 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Stick+No+Bills:wght@800&display=swap" rel="stylesheet">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Star Wars</title>
+</head>
+<body>
+	<section id="firstSection">
+		<video autoplay muted loop class="videosrc">
+  			<source src="back.mp4" type="video/mp4">
+		</video>
+
+		<div id="FactionSlides"></div>
+
+		<div id="content" >
+			<div class="factions"  id="jedi">
+				<div class="factionInfo" id="jediInfo">
+				<h1>Jedi order</h1>
+				<p>Jedi lorem ipsum dolor sit amet Jedi lorem ipsum dolor sit amet </p></div>
+				<div class="factionAnimations">
+					
+					<div class="jediLine" id="jediline"></div>
+					<i class="fab fa-jedi-order" id="jediIcon" onmouseover="jediAnime()"></i>
+				</div>
+			</div>
+			<div class="factions" id="oldRepublic">
+				<div class="factionAnimations">
+					<i class="fab fa-old-republic" id="RepublicIcon"onmouseover="RepubAnime()" ></i>
+					
+					<div class="jediLine" id="rebulicLine"></div>
+					
+				</div>
+				<div class="factionInfo" id="oldInfo">
+				<h1>Old Republic</h1>
+				<p>Jedi lorem ipsum dolor sit amet Jedi lorem ipsum dolor sit amet </p></div>
+
+			</div>
+			<div class="factions"  id="galactic">
+				<div class="factionInfo" id="galacticInfo">
+				<h1>galactic Repoblic</h1>
+				<p>Jedi lorem ipsum dolor sit amet Jedi lorem ipsum dolor sit amet </p></div>
+				<div class="factionAnimations">
+					
+					<div class="jediLine" id="galacticline"></div>
+					<i class="fab fa-galactic-republic" onmouseover="galacticAnime()" id="jediIcon"></i>
+				</div>
+			</div>
+
+			<div class="factions" id="oldRepublic">
+				<div class="factionAnimations">
+					<i class="fab fa-galactic-senate" id="RepublicIcon"onmouseover="senate()" ></i>
+					
+					<div class="jediLine" id="senateline"></div>
+					
+				</div>
+				<div class="factionInfo" id="senateInfo">
+				<h1>Galactic Senate</h1>
+				<p>Jedi lorem ipsum dolor sit amet Jedi lorem ipsum dolor sit amet </p></div>
+
+			</div>
+			
+			
+		</div>
+	</section>
+<script type="text/javascript" src="app.js"></script>
+</body>
+</html>
